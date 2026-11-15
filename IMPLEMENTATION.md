@@ -159,7 +159,7 @@ export default defineConfig({
 - **主色**：靛蓝系 `--primary`；实测徽章用绿色（`bg-emerald-*` 语义化封装为 `.badge-verified`），作为唯一品牌记忆点。
 - **字体**：
   - 正文：`system-ui, "PingFang SC", "Microsoft YaHei", sans-serif`（霞鹜文楷作为可选 webfont 后置）
-  - 代码/Logo/徽章：`"Maple Mono NF CN", "JetBrains Mono", monospace`，经 `@fontsource` 自托管 import（不进 public）
+  - 代码/Logo/徽章：`ui-monospace, SFMono-Regular, Menlo, Consolas, monospace`（系统字体栈，不引入第三方 webfont）
 - **排版**：正文 1.75 倍行高、段落间距 `1em`、正文最大宽 `~70ch`、代码行宽 ≤ 75 字符。
 - **暗色**：默认跟随系统，手动切换存 `localStorage`；`layout.js` 的 `<head>` 内联一段 200 字节防闪烁脚本（在 CSS 加载前决定 `<html class>`）。
 

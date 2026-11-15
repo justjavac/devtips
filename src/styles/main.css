@@ -1,8 +1,5 @@
 @import 'tailwindcss';
 @import 'basecoat-css';
-@import '@fontsource/jetbrains-mono/400.css';
-@import '@fontsource/jetbrains-mono/500.css';
-@import '@fontsource/jetbrains-mono/700.css';
 @import './prose.css';
 @import './site.css';
 
@@ -11,8 +8,7 @@
     ui-sans-serif, system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei',
     'Noto Sans CJK SC', sans-serif;
   --font-mono:
-    'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'PingFang SC',
-    'Microsoft YaHei', monospace;
+    ui-monospace, SFMono-Regular, Menlo, Consolas, 'PingFang SC', 'Microsoft YaHei', monospace;
   --color-verified: var(--verified);
   --color-verified-foreground: var(--verified-foreground);
 }
