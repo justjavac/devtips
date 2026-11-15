@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "ai-tools",
+    "name": "AI 编程工具",
+    "desc": "Cursor / Claude Code / Kimi CLI 等工具的使用技巧"
+  },
+  {
+    "slug": "prompting",
+    "name": "Prompt 与上下文工程",
+    "desc": "CLAUDE.md / AGENTS.md 写法、上下文管理、任务拆解"
+  },
+  {
+    "slug": "workflow",
+    "name": "AI 工作流",
+    "desc": "AI code review、AI 写测试、人机协作流程"
+  },
+  {
+    "slug": "dev-basics",
+    "name": "基础开发技巧",
+    "desc": "Git / CLI / 编辑器 / 操作系统等实用技巧"
+  }
+]
