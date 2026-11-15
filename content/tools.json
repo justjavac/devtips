@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "slug": "powertoys",
+    "name": "PowerToys",
+    "desc": "微软官方开源的效率增强套件：启动器、OCR、窗口置顶、分屏等",
+    "url": "https://github.com/microsoft/PowerToys",
+    "pricing": "免费（MIT 开源）",
+    "availability": "国内直连可用；winget / 微软商店可装"
+  },
+  {
+    "slug": "codex",
+    "name": "Codex CLI",
+    "desc": "OpenAI 官方开源的终端 AI 编程助手，支持 subagent、profile 与插件",
+    "url": "https://github.com/openai/codex",
+    "pricing": "CLI 免费开源；使用需 ChatGPT 订阅或 API 额度",
+    "availability": "国内访问需代理；可接 OpenAI 或兼容 Responses API 的第三方模型"
+  }
+]
