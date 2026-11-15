@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# AI 爬虫放行（GEO 基建，PLAN §8.3）
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+Sitemap: https://devtips.cn/sitemap.xml
